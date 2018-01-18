@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1837B0291FF095D500A9DBDD /* PLCSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837B0281FF095D500A9DBDD /* PLCSocketServer.m */; };
+		1837B0311FF0C9BD00A9DBDD /* FixtureSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837B0301FF0C9BD00A9DBDD /* FixtureSocketServer.m */; };
+		1856F6E51FFC7FEC0055A0A4 /* connect0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1856F6E31FFC7FEC0055A0A4 /* connect0.png */; };
+		1856F6E61FFC7FEC0055A0A4 /* disconnect0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1856F6E41FFC7FEC0055A0A4 /* disconnect0.png */; };
+		1862FC561FF3336000ED58D7 /* UtilityFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1862FC551FF3336000ED58D7 /* UtilityFunction.m */; };
+		1862FC5B1FF39FB100ED58D7 /* RunProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 1862FC5A1FF39FB100ED58D7 /* RunProcess.m */; };
+		1868D64420049F6E00EE25E5 /* ArrayQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1868D64320049F6E00EE25E5 /* ArrayQueue.m */; };
+		189C34921FEC918700A2E125 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C34911FEC918700A2E125 /* AppDelegate.m */; };
+		189C34951FEC918700A2E125 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C34941FEC918700A2E125 /* main.m */; };
+		189C34981FEC918700A2E125 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C34971FEC918700A2E125 /* ViewController.m */; };
+		189C349A1FEC918700A2E125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189C34991FEC918700A2E125 /* Assets.xcassets */; };
+		189C349D1FEC918700A2E125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189C349B1FEC918700A2E125 /* Main.storyboard */; };
+		189C34A61FECA5B800A2E125 /* MySqlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C34A51FECA5B800A2E125 /* MySqlManager.m */; };
+		189C34AB1FECA81300A2E125 /* ACSConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 189C34AA1FECA81300A2E125 /* ACSConfiguration.plist */; };
+		189C34AF1FECD62E00A2E125 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 189C34AE1FECD62E00A2E125 /* libsqlite3.tbd */; };
+		189C34B21FECEC1600A2E125 /* ConfigurationFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 189C34B11FECEC1600A2E125 /* ConfigurationFile.m */; };
+		353B270483EA1B88E4E60C37 /* Pods_AUTOMATION_CONTROL_SYSTEM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21411FCE6D3217044DFB8282 /* Pods_AUTOMATION_CONTROL_SYSTEM.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1837B0271FF095D500A9DBDD /* PLCSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCSocketServer.h; sourceTree = "<group>"; };
+		1837B0281FF095D500A9DBDD /* PLCSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCSocketServer.m; sourceTree = "<group>"; };
+		1837B02F1FF0C9BD00A9DBDD /* FixtureSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixtureSocketServer.h; sourceTree = "<group>"; };
+		1837B0301FF0C9BD00A9DBDD /* FixtureSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixtureSocketServer.m; sourceTree = "<group>"; };
+		1856F6E31FFC7FEC0055A0A4 /* connect0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = connect0.png; sourceTree = "<group>"; };
+		1856F6E41FFC7FEC0055A0A4 /* disconnect0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disconnect0.png; sourceTree = "<group>"; };
+		1862FC541FF3336000ED58D7 /* UtilityFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilityFunction.h; sourceTree = "<group>"; };
+		1862FC551FF3336000ED58D7 /* UtilityFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilityFunction.m; sourceTree = "<group>"; };
+		1862FC591FF39FB100ED58D7 /* RunProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunProcess.h; sourceTree = "<group>"; };
+		1862FC5A1FF39FB100ED58D7 /* RunProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunProcess.m; sourceTree = "<group>"; };
+		1868D64220049F6E00EE25E5 /* ArrayQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayQueue.h; sourceTree = "<group>"; };
+		1868D64320049F6E00EE25E5 /* ArrayQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayQueue.m; sourceTree = "<group>"; };
+		189C348D1FEC918700A2E125 /* AUTOMATION CONTROL SYSTEM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AUTOMATION CONTROL SYSTEM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189C34901FEC918700A2E125 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		189C34911FEC918700A2E125 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		189C34941FEC918700A2E125 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		189C34961FEC918700A2E125 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		189C34971FEC918700A2E125 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		189C34991FEC918700A2E125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189C349C1FEC918700A2E125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189C349E1FEC918700A2E125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189C34A41FECA5B800A2E125 /* MySqlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySqlManager.h; sourceTree = "<group>"; };
+		189C34A51FECA5B800A2E125 /* MySqlManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySqlManager.m; sourceTree = "<group>"; };
+		189C34AA1FECA81300A2E125 /* ACSConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ACSConfiguration.plist; sourceTree = "<group>"; };
+		189C34AE1FECD62E00A2E125 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		189C34B01FECEC1600A2E125 /* ConfigurationFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationFile.h; sourceTree = "<group>"; };
+		189C34B11FECEC1600A2E125 /* ConfigurationFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationFile.m; sourceTree = "<group>"; };
+		189C34B31FECF98700A2E125 /* FixtureType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FixtureType.h; path = ../FixtureType.h; sourceTree = "<group>"; };
+		21411FCE6D3217044DFB8282 /* Pods_AUTOMATION_CONTROL_SYSTEM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AUTOMATION_CONTROL_SYSTEM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC477D57A74D761603303D5 /* Pods-AUTOMATION CONTROL SYSTEM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AUTOMATION CONTROL SYSTEM.release.xcconfig"; path = "Pods/Target Support Files/Pods-AUTOMATION CONTROL SYSTEM/Pods-AUTOMATION CONTROL SYSTEM.release.xcconfig"; sourceTree = "<group>"; };
+		F8EE2970EC933103618FD674 /* Pods-AUTOMATION CONTROL SYSTEM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AUTOMATION CONTROL SYSTEM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AUTOMATION CONTROL SYSTEM/Pods-AUTOMATION CONTROL SYSTEM.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189C348A1FEC918700A2E125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189C34AF1FECD62E00A2E125 /* libsqlite3.tbd in Frameworks */,
+				353B270483EA1B88E4E60C37 /* Pods_AUTOMATION_CONTROL_SYSTEM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14BE373ACFE6058D3F333253 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				189C34AE1FECD62E00A2E125 /* libsqlite3.tbd */,
+				21411FCE6D3217044DFB8282 /* Pods_AUTOMATION_CONTROL_SYSTEM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1856F6DA1FFC7CFB0055A0A4 /* snapshot */ = {
+			isa = PBXGroup;
+			children = (
+				1856F6E31FFC7FEC0055A0A4 /* connect0.png */,
+				1856F6E41FFC7FEC0055A0A4 /* disconnect0.png */,
+			);
+			name = snapshot;
+			sourceTree = "<group>";
+		};
+		189C34841FEC918700A2E125 = {
+			isa = PBXGroup;
+			children = (
+				189C348F1FEC918700A2E125 /* AUTOMATION CONTROL SYSTEM */,
+				189C348E1FEC918700A2E125 /* Products */,
+				F9305264732D0BC0791514E3 /* Pods */,
+				14BE373ACFE6058D3F333253 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		189C348E1FEC918700A2E125 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189C348D1FEC918700A2E125 /* AUTOMATION CONTROL SYSTEM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189C348F1FEC918700A2E125 /* AUTOMATION CONTROL SYSTEM */ = {
+			isa = PBXGroup;
+			children = (
+				1856F6DA1FFC7CFB0055A0A4 /* snapshot */,
+				189C34B31FECF98700A2E125 /* FixtureType.h */,
+				189C34901FEC918700A2E125 /* AppDelegate.h */,
+				189C34911FEC918700A2E125 /* AppDelegate.m */,
+				189C34961FEC918700A2E125 /* ViewController.h */,
+				189C34971FEC918700A2E125 /* ViewController.m */,
+				1868D64220049F6E00EE25E5 /* ArrayQueue.h */,
+				1868D64320049F6E00EE25E5 /* ArrayQueue.m */,
+				189C34A41FECA5B800A2E125 /* MySqlManager.h */,
+				189C34A51FECA5B800A2E125 /* MySqlManager.m */,
+				189C34991FEC918700A2E125 /* Assets.xcassets */,
+				189C349B1FEC918700A2E125 /* Main.storyboard */,
+				189C349E1FEC918700A2E125 /* Info.plist */,
+				189C34931FEC918700A2E125 /* Supporting Files */,
+				189C34AA1FECA81300A2E125 /* ACSConfiguration.plist */,
+				189C34B01FECEC1600A2E125 /* ConfigurationFile.h */,
+				189C34B11FECEC1600A2E125 /* ConfigurationFile.m */,
+				1837B0271FF095D500A9DBDD /* PLCSocketServer.h */,
+				1837B0281FF095D500A9DBDD /* PLCSocketServer.m */,
+				1837B02F1FF0C9BD00A9DBDD /* FixtureSocketServer.h */,
+				1837B0301FF0C9BD00A9DBDD /* FixtureSocketServer.m */,
+				1862FC541FF3336000ED58D7 /* UtilityFunction.h */,
+				1862FC551FF3336000ED58D7 /* UtilityFunction.m */,
+				1862FC591FF39FB100ED58D7 /* RunProcess.h */,
+				1862FC5A1FF39FB100ED58D7 /* RunProcess.m */,
+			);
+			path = "AUTOMATION CONTROL SYSTEM";
+			sourceTree = "<group>";
+		};
+		189C34931FEC918700A2E125 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				189C34941FEC918700A2E125 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9305264732D0BC0791514E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8EE2970EC933103618FD674 /* Pods-AUTOMATION CONTROL SYSTEM.debug.xcconfig */,
+				5BC477D57A74D761603303D5 /* Pods-AUTOMATION CONTROL SYSTEM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189C348C1FEC918700A2E125 /* AUTOMATION CONTROL SYSTEM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189C34A11FEC918700A2E125 /* Build configuration list for PBXNativeTarget "AUTOMATION CONTROL SYSTEM" */;
+			buildPhases = (
+				3ACC8C564D884EF39B51182F /* [CP] Check Pods Manifest.lock */,
+				189C34891FEC918700A2E125 /* Sources */,
+				189C348A1FEC918700A2E125 /* Frameworks */,
+				189C348B1FEC918700A2E125 /* Resources */,
+				27968D193C0E1AA9384F57A0 /* [CP] Embed Pods Frameworks */,
+				E4DE0711136189F57EB90CA1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AUTOMATION CONTROL SYSTEM";
+			productName = "AUTOMATION CONTROL SYSTEM";
+			productReference = 189C348D1FEC918700A2E125 /* AUTOMATION CONTROL SYSTEM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189C34851FEC918700A2E125 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = coco;
+				TargetAttributes = {
+					189C348C1FEC918700A2E125 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 189C34881FEC918700A2E125 /* Build configuration list for PBXProject "AUTOMATION CONTROL SYSTEM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189C34841FEC918700A2E125;
+			productRefGroup = 189C348E1FEC918700A2E125 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189C348C1FEC918700A2E125 /* AUTOMATION CONTROL SYSTEM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189C348B1FEC918700A2E125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189C34AB1FECA81300A2E125 /* ACSConfiguration.plist in Resources */,
+				1856F6E51FFC7FEC0055A0A4 /* connect0.png in Resources */,
+				1856F6E61FFC7FEC0055A0A4 /* disconnect0.png in Resources */,
+				189C349A1FEC918700A2E125 /* Assets.xcassets in Resources */,
+				189C349D1FEC918700A2E125 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27968D193C0E1AA9384F57A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AUTOMATION CONTROL SYSTEM/Pods-AUTOMATION CONTROL SYSTEM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AUTOMATION CONTROL SYSTEM/Pods-AUTOMATION CONTROL SYSTEM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ACC8C564D884EF39B51182F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AUTOMATION CONTROL SYSTEM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4DE0711136189F57EB90CA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AUTOMATION CONTROL SYSTEM/Pods-AUTOMATION CONTROL SYSTEM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189C34891FEC918700A2E125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1862FC5B1FF39FB100ED58D7 /* RunProcess.m in Sources */,
+				189C34B21FECEC1600A2E125 /* ConfigurationFile.m in Sources */,
+				1837B0311FF0C9BD00A9DBDD /* FixtureSocketServer.m in Sources */,
+				189C34981FEC918700A2E125 /* ViewController.m in Sources */,
+				189C34951FEC918700A2E125 /* main.m in Sources */,
+				189C34A61FECA5B800A2E125 /* MySqlManager.m in Sources */,
+				189C34921FEC918700A2E125 /* AppDelegate.m in Sources */,
+				1868D64420049F6E00EE25E5 /* ArrayQueue.m in Sources */,
+				1862FC561FF3336000ED58D7 /* UtilityFunction.m in Sources */,
+				1837B0291FF095D500A9DBDD /* PLCSocketServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		189C349B1FEC918700A2E125 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189C349C1FEC918700A2E125 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189C349F1FEC918700A2E125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		189C34A01FEC918700A2E125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		189C34A21FEC918700A2E125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8EE2970EC933103618FD674 /* Pods-AUTOMATION CONTROL SYSTEM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AUTOMATION",
+					CONTROL,
+					SYSTEM/FrameWork,
+					"$(PROJECT_DIR)/AUTOMATION",
+					CONTROL,
+					SYSTEM/Frameworks,
+					"$(PROJECT_DIR)/AUTOMATION",
+					CONTROL,
+					SYSTEM,
+					"$(PROJECT_DIR)/AUTOMATION",
+					CONTROL,
+					SYSTEM,
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = /usr/local/mysql/include;
+				INFOPLIST_FILE = "AUTOMATION CONTROL SYSTEM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/mysql/lib;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ReactiveCocoa\"",
+					"-framework",
+					"\"Result\"",
+					"-L/usr/local/mysql/lib",
+					"-lmysqlclient",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rhac.AUTOMATION-CONTROL-SYSTEM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		189C34A31FEC918700A2E125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BC477D57A74D761603303D5 /* Pods-AUTOMATION CONTROL SYSTEM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AUTOMATION",
+					CONTROL,
+					SYSTEM/FrameWork,
+					"$(PROJECT_DIR)/AUTOMATION",
+					CONTROL,
+					SYSTEM/Frameworks,
+					"$(PROJECT_DIR)/AUTOMATION",
+					CONTROL,
+					SYSTEM,
+					"$(PROJECT_DIR)/AUTOMATION",
+					CONTROL,
+					SYSTEM,
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = /usr/local/mysql/include;
+				INFOPLIST_FILE = "AUTOMATION CONTROL SYSTEM/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/mysql/lib;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"ReactiveCocoa\"",
+					"-framework",
+					"\"Result\"",
+					"-L/usr/local/mysql/lib",
+					"-lmysqlclient",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rhac.AUTOMATION-CONTROL-SYSTEM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189C34881FEC918700A2E125 /* Build configuration list for PBXProject "AUTOMATION CONTROL SYSTEM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189C349F1FEC918700A2E125 /* Debug */,
+				189C34A01FEC918700A2E125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189C34A11FEC918700A2E125 /* Build configuration list for PBXNativeTarget "AUTOMATION CONTROL SYSTEM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189C34A21FEC918700A2E125 /* Debug */,
+				189C34A31FEC918700A2E125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189C34851FEC918700A2E125 /* Project object */;
+}

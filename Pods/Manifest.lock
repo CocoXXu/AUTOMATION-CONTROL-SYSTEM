@@ -1,0 +1,27 @@
+PODS:
+  - CocoaAsyncSocket (7.6.1)
+  - ReactiveCocoa (4.0.4-alpha-4):
+    - ReactiveCocoa/UI (= 4.0.4-alpha-4)
+    - Result (~> 1.0)
+  - ReactiveCocoa/Core (4.0.4-alpha-4):
+    - ReactiveCocoa/no-arc
+    - Result (~> 1.0)
+  - ReactiveCocoa/no-arc (4.0.4-alpha-4):
+    - Result (~> 1.0)
+  - ReactiveCocoa/UI (4.0.4-alpha-4):
+    - ReactiveCocoa/Core
+    - Result (~> 1.0)
+  - Result (1.0.2)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket (~> 7.6.1)
+  - ReactiveCocoa (~> 4.0.2-alpha-1)
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 7eadd3f59e1a6c84e2aefc93e9ff7b55156fe174
+  ReactiveCocoa: e459ea92099447802df20c4735e31e8139b06094
+  Result: dd3dd71af3fa2e262f1a999e14fba2c25ec14f16
+
+PODFILE CHECKSUM: c2221e7e6f0eec5e79c478e1ddb6b6d0fcb63e01
+
+COCOAPODS: 1.3.1
